@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Carattere&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+
+    <div class="assets">
+        <img id="background" src="background_single.png" style="display:none;">
+        <img src="player_fish.png" id="player_fish" alt="">
+        <img src="smallGears.png" id="smallGears" alt="">
+    </div>
+    <audio id="charge" src="charge.mp3"></audio>
+    <audio id="flap1" src="flap1.mp3"></audio>
+    <audio id="flap2" src="flap2.mp3"></audio>
+    <audio id="flap3" src="flap3.mp3"></audio>
+    <audio id="flap4" src="flap4.mp3"></audio>
+    <audio id="flap5" src="flap5.mp3"></audio>
+
+    <audio id="win" src="win.mp3"></audio>
+    <audio id="lose" src="lose.mp3"></audio>
+
+   <script src="audio.js"></script>
+    <script src="player.js"></script>
+    <script src="obstacle.js"></script>
+    <script src="main.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
